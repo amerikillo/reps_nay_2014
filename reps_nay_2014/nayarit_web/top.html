@@ -1,0 +1,92 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<!-- DW6 -->
+<head>
+<!-- Copyright 2005 Macromedia, Inc. All rights reserved. -->
+<title>Sistema de Reportes WEB :: GNKL</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<link rel="stylesheet" href="../css/mm_health_nutr.css" type="text/css" />
+<script language="JavaScript" type="text/javascript">
+//--------------- LOCALIZEABLE GLOBALS ---------------
+var d=new Date();
+var monthname=new Array("January","February","March","April","May","June","July","August","September","October","November","December");
+//Ensure correct for language. English is "January 1, 2004"
+var TODAY = monthname[d.getMonth()] + " " + d.getDate() + ", " + d.getFullYear();
+//---------------   END LOCALIZEABLE   ---------------
+function close1()
+{//alert("huge");
+
+
+top.close();  
+/*if(navigator.appName=="Microsoft Internet Explorer") { 
+this.focus();self.opener = this;self.close(); } 
+else { window.open('','_parent',''); window.close(); } 
+
+*/
+//this.close();
+}
+</script>
+<style type="text/css">
+<!--
+.style2 {font-size: 24px}
+.style3 {
+	font-size: 28px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color: #EC3237;
+}
+.style5 {font-size: 20px}
+.style6 {color: #FF0000}
+.style7 {
+	color: #000066;
+	font-weight: bold;
+}
+-->
+</style>
+</head>
+<body bgcolor="#F4FFE4">
+<table width="100%" border="0" cellpadding="0" cellspacing="0" bordercolor="#FFFFFF" bgcolor="#FFFFFF">
+  
+
+  <tr bgcolor="#D5EDB3">
+    <td width="142" bgcolor="#FFFFFF"><img src="../imagen/nay_ima1.jpg"  width="142" height="72" /></td>
+    <td width="488" height="35" align="center" valign="top" bgcolor="#FFFFFF" id="tagline"><div align="left" class="pageName">
+      <div align="justify" class="subHeader style2">
+        <div align="center">
+          <pre><span class="pageName style3">&nbsp;REPORTES WEB NAYARIT&nbsp; </span><br /><span class="NEG"> </span></pre>
+        </div>
+      </div>
+    </div>    </td>
+	<td width="162" colspan="-1" bgcolor="#FFFFFF">
+    Cerrar Aplicación </a> <button name="boton" type="button" class="style7" onclick="close1()" value="Cerrar ReporWeb" /><img src="../imagen/borr.jpg" /></button></td>
+    <td width="284" colspan="-1" bgcolor="#FFFFFF"><img src="../imagen/ssn.jpg"width="162" height="78" /><br />
+    </td>
+
+  </tr>
+
+  <tr>
+    <td colspan="5" bgcolor="#AA0000"><img src="mm_spacer.gif" alt="" width="1" height="2" border="0" /></td>
+  </tr>
+
+  <tr>
+    <td colspan="6" bgcolor="#D40000"><img src="mm_spacer.gif" alt="line decor" width="4" height="3" border="0" /></td>
+  </tr>
+
+  <tr bgcolor="#99CC66">
+  	<td height="20" colspan="6" bgcolor="#FFFFFF" id="dateformat">&nbsp;&nbsp;
+    <script language="JavaScript" type="text/javascript">
+      document.write(TODAY);	</script></td>
+  </tr>
+ 
+  <tr>
+    <td colspan="6" bgcolor="#D40000"><img src="mm_spacer.gif" alt="line decor" width="4" height="3" border="0" /></td>
+  </tr>
+  <tr>
+    <td colspan="5" bgcolor="#AA0000"><img src="mm_spacer.gif" alt="" width="1" height="2" border="0" /></td>
+  </tr>
+</table>
+	
+  
+</table>
+</body>
+</html>

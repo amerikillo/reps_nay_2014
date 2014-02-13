@@ -1,0 +1,50 @@
+/* CSS Document */
+
+.ver {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-style: normal;
+	font-weight: normal;
+	color: #333333;
+	text-align: left;
+}
+
+.boton {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-style: normal;
+	font-weight: bold;
+	font-variant: normal;
+	color: #333333;
+}
+.ver3 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	color: #000000;
+}
+
+.ve {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: normal;
+	color: #333333;
+}
+a {
+	font-weight:bold;
+	border-bottom-color: #FFFFFF;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #333333;
+	}
+	
+a:hover {
+	font-size: 11px;
+	color: #999999;
+	}
+rojo {
+	color: #900;
+}
+rojos {
+	color: #900;
+}
