@@ -120,7 +120,7 @@ try{
            }
 		    if (reporte_jv.equals ("11")){
 				reporte_jv="-";
-		 response.sendRedirect("../rep_sem_nay/rec_sur.jsp");
+		 response.sendRedirect("../rep_sem_nay/menu_rec_sur.jsp");
            
 		    }
 		    if (reporte_jv.equals ("12")){

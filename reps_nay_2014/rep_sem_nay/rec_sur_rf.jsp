@@ -129,7 +129,7 @@ int sol=0, sur=0, dif=0, sol_col=0, sur_col=0, dif_col=0, total_sol=0, total_sur
 <p>&nbsp;</p>
 </div>
 <div class="banda">
-&nbsp; <a href="../reportes_nay/index_main.jsp" class="banda">Regresar</a> </div>
+&nbsp; <a href="menu_rec_sur.jsp" class="banda">Regresar</a> </div>
 <div style="width:920px; margin:auto; background-color:#FFFfff">
 <div style="width:600; float:right; background-color:#FFF; padding:15px; font-family:'Lucida Sans Unicode', 'Lucida Grande', sans-serif">
   <div class="tit_tablas">
