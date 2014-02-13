@@ -124,7 +124,7 @@ int sol=0, sur=0, dif=0, sol_col=0, sur_col=0, dif_col=0, total_sol=0, total_sur
 
 <body bgcolor="#FCFCFC">
 <div style="font-family:'Times New Roman', Times, serif;  background-color:#FFF; padding:15;"><div style="float:right"></div>
-<h1>REPORTE: NIVEL DE SERVICIO</h1> <h3>(Recetas al 100 % contra Recetas Parciales)</h3>
+<h1>REPORTE: NIVEL DE SERVICIO</h1> <h3>(Recetas al 100 % contra Recetas Parciales)</h3> <h3>Receta Farmacia</h3>
 <p>&nbsp;</p>
 </div>
 <div style="width:920px; margin:auto; background-color:#FFFfff">
